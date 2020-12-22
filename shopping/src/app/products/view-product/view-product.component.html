@@ -1,0 +1,33 @@
+
+<div class="card mt-4 mb-4">
+    <img  *ngIf="productDetails" class="card-img-top img-fluid" src="{{productDetails.productImage}}" alt="">
+    <div class="card-body">
+      <h3  *ngIf="productDetails" class="card-title">{{productDetails.productName}}</h3>
+      <a   *ngIf="productDetails" href="products/update-product/{{productDetails.id}}">Update Product</a>
+      <a    *ngIf="productDetails" href="products/delete-product/{{productDetails.id}}">Delete Product</a>
+      <h4  *ngIf="productDetails">price :{{productDetails.price}}</h4>
+      <p  *ngIf="productDetails" class="card-text"> {{productDetails.productDesc}}</p>
+      <span *ngIf="productDetails" class="text-warning">{{productDetails.rating}}</span>
+      stars
+    </div>
+  </div>
+  <!-- /.card -->
+
+  <!-- <div class="card card-outline-secondary my-4">
+    <div class="card-header">
+      Product Reviews
+    </div>
+    <div class="card-body">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis et enim aperiam inventore, similique necessitatibus neque non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum. Sequi mollitia, necessitatibus quae sint natus.</p>
+      <small class="text-muted">Posted by Anonymous on 3/1/17</small>
+      <hr>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis et enim aperiam inventore, similique necessitatibus neque non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum. Sequi mollitia, necessitatibus quae sint natus.</p>
+      <small class="text-muted">Posted by Anonymous on 3/1/17</small>
+      <hr>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis et enim aperiam inventore, similique necessitatibus neque non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum. Sequi mollitia, necessitatibus quae sint natus.</p>
+      <small class="text-muted">Posted by Anonymous on 3/1/17</small>
+      <hr>
+      <a href="#" class="btn btn-success">Leave a Review</a>
+    </div>
+  </div>
+  /.card -->

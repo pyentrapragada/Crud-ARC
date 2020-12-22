@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "productName": "Casual1",
+      "productDesc": "Product Description2",
+      "categoryId": 1,
+      "price": 200,
+      "rating": "2stars",
+      "productImage": "https://homepages.cae.wisc.edu/~ece533/images/boat.png"
+    },
+    {
+      "id": 2,
+      "productName": "Sweater1",
+      "productDesc": "Product Description2",
+      "categoryId": 3,
+      "price": 200,
+      "rating": "2stars",
+      "productImage": "https://homepages.cae.wisc.edu/~ece533/images/boat.png"
+    },
+    { 
+      "id": 4,
+      "productName": "Sweater1",
+      "productDesc": "Product Description2",
+      "categoryId": 4,
+      "price": 200,
+      "rating": "2stars",
+      "productImage": "https://homepages.cae.wisc.edu/~ece533/images/boat.png"
+
+    },
+    {
+      "id": 3,
+      "productName": "Sweater1",
+      "productDesc": "Product Description2",
+      "categoryId": 2,
+      "price": 200,
+      "rating": "2stars",
+      "productImage": "https://homepages.cae.wisc.edu/~ece533/images/boat.png"
+
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Poloshirts"
+    },
+    {
+      "id": 2,
+      "name": "casualshirts"
+    },
+    {
+      "id": 3,
+      "name": "SwaeterShirts"
+    },
+    {
+      "id": 4,
+      "name": "Swimshirts"
+    }
+  ]
+}
